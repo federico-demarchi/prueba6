@@ -9,7 +9,7 @@ function iniciar() {
 function valida_nombre() {
     var elemento = document.getElementById('nombre');
     if (elemento.value == ''){
-        alert('El campo nombre no puede estar vacio');
+        alert('Este campo no puede estar vacio');
         return false 
     }
     return true;
@@ -18,7 +18,25 @@ function valida_nombre() {
 function valida_telefono() {
     var elemento = document.getElementById('tel');
     if (isNaN(elemento.value)){
-        alert('El campo teléfono debe ser un número');
+        alert('Este campo no puede estar vacio');
+        return false 
+    }
+    return true;
+}
+
+function valida_mail() {
+    var elemento = document.getElementById('mail');
+    if (elemento.value == ''){
+        alert('Este campo no puede estar vacio');
+        return false 
+    }
+    return true;
+}
+
+function valida_mensaje() {
+    var elemento = document.getElementById('mensaje');
+    if (elemento.value == ''){
+        alert('Este campo no puede estar vacio');
         return false 
     }
     return true;
