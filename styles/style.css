@@ -443,9 +443,11 @@ footer p {
     }
  } 
  @media (max-width: 560px) {
+
     .logo {
-        display: none;
+        display: none !important;
     }
+
     .content .info h2 {
         font-size: 35px;
         line-height: 40px;
