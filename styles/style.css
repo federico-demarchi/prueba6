@@ -443,6 +443,9 @@ footer p {
     }
  } 
  @media (max-width: 560px) {
+    .logo {
+        display: none;
+    }
     .content .info h2 {
         font-size: 35px;
         line-height: 40px;
@@ -455,7 +458,7 @@ footer p {
 
     .content .info p {
         font-size: 14px;
- }
+    }
     .gallery-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
@@ -502,6 +505,5 @@ footer p {
     }
     .gallery__item:nth-child(8) {
         grid-column-start: span 1;
-    }
-    
+    }  
 }
