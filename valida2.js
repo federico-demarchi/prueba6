@@ -18,7 +18,7 @@ function valida_nombre() {
 function valida_telefono() {
     var elemento = document.getElementById('tel');
     if (isNaN(elemento.value)){
-        alert('Completa todos los campos');
+        alert('Completa el campo teléfono con números');
         return false 
     }
     return true;
